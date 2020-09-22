@@ -1,6 +1,6 @@
 # Personal-vacation-finder
 <p>A project in c#, WPF and .NET <br>
-This projet is a sytem, that it's perpous is to fit people the perfect vaction for them. <br>
+This projet is a sytem, that it's perpous is to fit people the perfect vacation for them. <br>
 People can insert what they would like to have in their vaction, and the system directs the maching host to them. <br>
 In the system there are also a hosts system, and their hosting units (and there they see if one of their units has a mach, and they can send them an outmatic mail), and a mannager system, where he can find all the information in the system (hosts, requests and ordes) and make some actions.
 
