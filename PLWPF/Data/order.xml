@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<order>
+  <Order>
+    <HostingUnitKey>10000000</HostingUnitKey>
+    <GuestRequestKey>10000124</GuestRequestKey>
+    <OrderKey>10000032</OrderKey>
+    <Status>CARE</Status>
+    <ImageStatus>resources/smile.png</ImageStatus>
+    <CreateDate>2020-02-05T00:00:00+02:00</CreateDate>
+    <OrderDate>2020-02-05T00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000001</HostingUnitKey>
+    <GuestRequestKey>10000000</GuestRequestKey>
+    <OrderKey>10000039</OrderKey>
+    <Status>CARE</Status>
+    <ImageStatus>resources/smile.png</ImageStatus>
+    <CreateDate>2020-02-05T00:00:00+02:00</CreateDate>
+    <OrderDate>2020-02-06T00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000001</HostingUnitKey>
+    <GuestRequestKey>10000158</GuestRequestKey>
+    <OrderKey>10000048</OrderKey>
+    <Status>CARE</Status>
+    <ImageStatus>resources/smile.png</ImageStatus>
+    <CreateDate>2020-02-06T00:00:00+02:00</CreateDate>
+    <OrderDate>06/02/2020 00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000007</HostingUnitKey>
+    <GuestRequestKey>10050058</GuestRequestKey>
+    <OrderKey>10000164</OrderKey>
+    <Status>CARE</Status>
+    <ImageStatus>resources/smile.png</ImageStatus>
+    <CreateDate>2020-02-06T00:00:00+02:00</CreateDate>
+    <OrderDate>06/02/2020 00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000007</HostingUnitKey>
+    <GuestRequestKey>10050060</GuestRequestKey>
+    <OrderKey>10000165</OrderKey>
+    <Status>CLIENTNOCARE</Status>
+    <ImageStatus>resources/check.png</ImageStatus>
+    <CreateDate>2020-02-06T00:00:00+02:00</CreateDate>
+    <OrderDate>06/02/2020 00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000007</HostingUnitKey>
+    <GuestRequestKey>10050062</GuestRequestKey>
+    <OrderKey>10000166</OrderKey>
+    <Status>CLIENTNOCARE</Status>
+    <ImageStatus>resources/check.png</ImageStatus>
+    <CreateDate>2020-02-06T00:00:00+02:00</CreateDate>
+    <OrderDate>06/02/2020 00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000007</HostingUnitKey>
+    <GuestRequestKey>10050317</GuestRequestKey>
+    <OrderKey>10000347</OrderKey>
+    <Status>NOTYETCARE</Status>
+    <ImageStatus>resources/gmail.png</ImageStatus>
+    <CreateDate>2020-02-06T00:00:00+02:00</CreateDate>
+    <OrderDate>0001-01-01T00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000009</HostingUnitKey>
+    <GuestRequestKey>10050581</GuestRequestKey>
+    <OrderKey>10000523</OrderKey>
+    <Status>CLIENTNOCARE</Status>
+    <ImageStatus>resources/check.png</ImageStatus>
+    <CreateDate>2020-02-06T00:00:00+02:00</CreateDate>
+    <OrderDate>06/02/2020 00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000003</HostingUnitKey>
+    <GuestRequestKey>10050812</GuestRequestKey>
+    <OrderKey>10000756</OrderKey>
+    <Status>CARE</Status>
+    <ImageStatus>resources/smile.png</ImageStatus>
+    <CreateDate>2020-02-06T00:00:00+02:00</CreateDate>
+    <OrderDate>06/02/2020 00:00:00</OrderDate>
+  </Order>
+  <Order>
+    <HostingUnitKey>10000000</HostingUnitKey>
+    <GuestRequestKey>10051255</GuestRequestKey>
+    <OrderKey>10001807</OrderKey>
+    <Status>CARE</Status>
+    <ImageStatus>resources/smile.png</ImageStatus>
+    <CreateDate>2020-02-12T00:00:00+02:00</CreateDate>
+    <OrderDate>12/02/2020 00:00:00</OrderDate>
+  </Order>
+</order>

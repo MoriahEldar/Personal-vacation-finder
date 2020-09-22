@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="PLWPF.HostViewManager"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="140" d:DesignWidth="970">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="126*"/>
+            <ColumnDefinition Width="359*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label" Content="ID" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30"/>
+        <TextBox x:Name="textBox" Style="{StaticResource ResourceKey=InvisibleText}" Margin="28,6,0,0" Width="148" Height="22" FontSize="12" Text="{Binding Id}"/>
+        <Label x:Name="label_Copy" Content="Name" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="0,28,0,0"/>
+        <TextBox x:Name="textBox_Copy" Style="{StaticResource ResourceKey=InvisibleText}" Margin="50,31,0,0" Width="148" Height="22" FontSize="12" Text="{Binding FirstName}"/>
+        <TextBox x:Name="textBox_Copy1" Style="{StaticResource ResourceKey=InvisibleText}" Margin="141,31,0,0" Width="148" Height="22" FontSize="12" Text="{Binding LastName}" Grid.ColumnSpan="2"/>
+        <Label x:Name="label_Copy1" Content="Mail address" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="0,58,0,0"/>
+        <TextBox x:Name="textBox_Copy2" Style="{StaticResource ResourceKey=InvisibleText}" Margin="86,64,0,0" Width="166" Height="24" FontSize="12" Text="{Binding Mail}"/>
+        <Label x:Name="label_Copy2" Content="Phone number" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="0,88,0,0"/>
+        <TextBox x:Name="textBox_Copy3" Style="{StaticResource ResourceKey=InvisibleText}" Margin="104,96,0,0" Width="148" Height="22" FontSize="12" Text="{Binding PhoneNumber}"/>
+        <Label x:Name="label_Copy3" Content="Bank Name" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="111,0,0,0" Grid.Column="1"/>
+        <TextBox x:Name="textBankName" Style="{StaticResource ResourceKey=InvisibleText}" Margin="197,3,0,0" Width="148" Height="22" FontSize="12" Text="{Binding BankName}" Grid.Column="1"/>
+        <Label x:Name="label_Copy6" Content="Branch address" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="111,31,0,0" Grid.Column="1"/>
+        <TextBox x:Name="textBankAddress" Style="{StaticResource ResourceKey=InvisibleText}" Margin="215,37,0,0" Width="148" Height="22" FontSize="12" Text="{Binding BranchAddress}" Grid.Column="1"/>
+        <Label x:Name="label_Copy7" Content="Collection Clearance" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="424,2,0,0" Grid.Column="1"/>
+        <TextBox x:Name="commissionText" Style="{StaticResource ResourceKey=InvisibleText}" Margin="506,38,0,0" Width="62" Height="20" FontSize="12" Text="{Binding Commission}" Grid.Column="1"/>
+        <Label x:Name="label_Copy8" Content="Commission" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="424,32,0,0" Grid.Column="1"/>
+        <Label x:Name="label_Copy10" Content="Bank account number" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="111,61,0,0" Grid.Column="1"/>
+        <TextBox x:Name="textBankAccountNumber" Style="{StaticResource ResourceKey=InvisibleText}" Margin="260,66,0,0" Width="100" Height="22" FontSize="12" Text="{Binding BankAccountNumber}" Grid.Column="1"/>
+        <CheckBox x:Name="checkBox" IsEnabled="False" HorizontalAlignment="Left" Margin="556,10,0,115" IsChecked="{Binding CollectionClearance}" Grid.Column="1"/>
+        <Button x:Name="Charged" Style="{StaticResource InvisibleButton}" Width="110" Height="54" Margin="396,0,0,18" VerticalAlignment="Bottom" Grid.Column="1" Click="Charged_Click">
+            <StackPanel Orientation="Horizontal"  Width="141" Height="57">
+                <Label Style="{StaticResource GeneralLabel}" Content="Charged" Margin="8,11,0,0" FontSize="12" Height="30"/>
+                <Image Height="35" VerticalAlignment="Bottom" Source="Resources/coin.png" HorizontalAlignment="left" Width="44" RenderTransformOrigin="0.552,0.506" Margin="0,0,0,14"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="SendMail" Style="{StaticResource InvisibleButton}" Width="126" Height="54" Margin="540,0,0,18" VerticalAlignment="Bottom" Grid.Column="1" Click="SendMail_Click">
+            <StackPanel Orientation="Horizontal"  Width="141" Height="57">
+                <Label Style="{StaticResource GeneralLabel}" Content="Send mail" Margin="8,11,0,0" FontSize="12" Height="30"/>
+                <Image Height="35" VerticalAlignment="Bottom" Source="Resources/gmail.png" HorizontalAlignment="left" Width="44" RenderTransformOrigin="0.552,0.506" Margin="0,0,0,14"/>
+            </StackPanel>
+
+        </Button>
+    </Grid>
+</UserControl>

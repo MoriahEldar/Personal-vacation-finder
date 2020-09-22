@@ -1,0 +1,15 @@
+C:\Users\Yonina\Documents\Academy\BE\BE\bin\Release\BE.dll
+C:\Users\Yonina\Documents\Academy\BE\BE\bin\Release\BE.pdb
+C:\Users\Yonina\Documents\Academy\BE\BE\obj\Release\BE.csprojAssemblyReference.cache
+C:\Users\Yonina\Documents\Academy\BE\BE\obj\Release\BE.dll
+C:\Users\Yonina\Documents\Academy\BE\BE\obj\Release\BE.pdb
+C:\Users\Yonina\Documents\Academy\Project03_0303_9286_dotNet5780\BE\bin\Release\BE.dll
+C:\Users\Yonina\Documents\Academy\Project03_0303_9286_dotNet5780\BE\bin\Release\BE.pdb
+C:\Users\Yonina\Documents\Academy\Project03_0303_9286_dotNet5780\BE\obj\Release\BE.csprojAssemblyReference.cache
+C:\Users\Yonina\Documents\Academy\Project03_0303_9286_dotNet5780\BE\obj\Release\BE.dll
+C:\Users\Yonina\Documents\Academy\Project03_0303_9286_dotNet5780\BE\obj\Release\BE.pdb
+C:\Users\Yonina\Downloads\Project03_0303_9286_dotNet5780\BE\bin\Release\BE.dll
+C:\Users\Yonina\Downloads\Project03_0303_9286_dotNet5780\BE\bin\Release\BE.pdb
+C:\Users\Yonina\Downloads\Project03_0303_9286_dotNet5780\BE\obj\Release\BE.csprojAssemblyReference.cache
+C:\Users\Yonina\Downloads\Project03_0303_9286_dotNet5780\BE\obj\Release\BE.dll
+C:\Users\Yonina\Downloads\Project03_0303_9286_dotNet5780\BE\obj\Release\BE.pdb

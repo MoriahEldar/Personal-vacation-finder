@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<ArrayOfHostingUnit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HostingUnit>
+    <HostingUnitKey>10000002</HostingUnitKey>
+    <OwnerId>001100114</OwnerId>
+    <HostingUnitName>cool :)</HostingUnitName>
+    <Description>very cool hotel - one room!</Description>
+    <NumRooms>1</NumRooms>
+    <AdultsBeds>2</AdultsBeds>
+    <ChildrenBeds>1</ChildrenBeds>
+    <Cribs>1</Cribs>
+    <Area>CENTER</Area>
+    <Address>Rehovot Hapartizanim 1</Address>
+    <Type>HOTEL</Type>
+    <Pool>true</Pool>
+    <Garden>false</Garden>
+    <ChildrenAttractions>false</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+  <HostingUnit>
+    <HostingUnitKey>10000001</HostingUnitKey>
+    <OwnerId>101010106</OwnerId>
+    <HostingUnitName>Groot</HostingUnitName>
+    <NumRooms>5</NumRooms>
+    <AdultsBeds>4</AdultsBeds>
+    <ChildrenBeds>9</ChildrenBeds>
+    <Cribs>6</Cribs>
+    <Area>JERUSALEM</Area>
+    <Address>Hazafzefa 17 Jerusalem</Address>
+    <Type>CARAVAN</Type>
+    <Pool>true</Pool>
+    <Garden>true</Garden>
+    <ChildrenAttractions>true</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+  <HostingUnit>
+    <HostingUnitKey>10000005</HostingUnitKey>
+    <OwnerId>110011004</OwnerId>
+    <HostingUnitName>Nes</HostingUnitName>
+    <NumRooms>5</NumRooms>
+    <AdultsBeds>2</AdultsBeds>
+    <ChildrenBeds>0</ChildrenBeds>
+    <Cribs>2</Cribs>
+    <Area>SOUTH</Area>
+    <Address>Dimona</Address>
+    <Type>TZIMER</Type>
+    <Pool>true</Pool>
+    <Garden>true</Garden>
+    <ChildrenAttractions>true</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+  <HostingUnit>
+    <HostingUnitKey>10000006</HostingUnitKey>
+    <OwnerId>110011004</OwnerId>
+    <HostingUnitName>פרימה המלכים</HostingUnitName>
+    <Description>מלון מהמם במרכז העיר ירושלים</Description>
+    <NumRooms>7</NumRooms>
+    <AdultsBeds>2</AdultsBeds>
+    <ChildrenBeds>2</ChildrenBeds>
+    <Cribs>5</Cribs>
+    <Area>JERUSALEM</Area>
+    <Address>כיכר פריז מרכז העיר</Address>
+    <Type>HOTEL</Type>
+    <Pool>true</Pool>
+    <Garden>false</Garden>
+    <ChildrenAttractions>false</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+  <HostingUnit>
+    <HostingUnitKey>10000007</HostingUnitKey>
+    <OwnerId>010101012</OwnerId>
+    <HostingUnitName>האורווה</HostingUnitName>
+    <NumRooms>3</NumRooms>
+    <AdultsBeds>2</AdultsBeds>
+    <ChildrenBeds>1</ChildrenBeds>
+    <Cribs>3</Cribs>
+    <Area>CENTER</Area>
+    <Address>פדואל אור עולם 42</Address>
+    <Type>CARAVAN</Type>
+    <Pool>true</Pool>
+    <Garden>true</Garden>
+    <ChildrenAttractions>true</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,True,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+  <HostingUnit>
+    <HostingUnitKey>10000009</HostingUnitKey>
+    <OwnerId>110011004</OwnerId>
+    <HostingUnitName>דרום אדום</HostingUnitName>
+    <Description>קאמפ מדהים בתוך כל הפריחה</Description>
+    <NumRooms>2</NumRooms>
+    <AdultsBeds>2</AdultsBeds>
+    <ChildrenBeds>2</ChildrenBeds>
+    <Cribs>1</Cribs>
+    <Area>SOUTH</Area>
+    <Address>Mitzpe Ramon</Address>
+    <Type>CAMP</Type>
+    <Pool>false</Pool>
+    <Garden>false</Garden>
+    <ChildrenAttractions>false</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+  <HostingUnit>
+    <HostingUnitKey>10000003</HostingUnitKey>
+    <OwnerId>110011004</OwnerId>
+    <HostingUnitName>More than tzimer</HostingUnitName>
+    <NumRooms>3</NumRooms>
+    <AdultsBeds>2</AdultsBeds>
+    <ChildrenBeds>0</ChildrenBeds>
+    <Cribs>0</Cribs>
+    <Area>NORTH</Area>
+    <Address>Zefat Hamekubalim 21</Address>
+    <Type>TZIMER</Type>
+    <Pool>true</Pool>
+    <Garden>true</Garden>
+    <ChildrenAttractions>true</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+  <HostingUnit>
+    <HostingUnitKey>10000008</HostingUnitKey>
+    <OwnerId>101010106</OwnerId>
+    <HostingUnitName>פסגות</HostingUnitName>
+    <Description>דירה מקסימה למטיילים בודדים באיזור. מומלץ לבקר במרפסת של המדינה, פרטים באתר האינטרנט. אופציה להעברת מיטות בין החדרים, לפרטים חייגו</Description>
+    <NumRooms>3</NumRooms>
+    <AdultsBeds>1</AdultsBeds>
+    <ChildrenBeds>0</ChildrenBeds>
+    <Cribs>0</Cribs>
+    <Area>CENTER</Area>
+    <Address>פדואל אור עולם 44</Address>
+    <Type>APARTMENT</Type>
+    <Pool>false</Pool>
+    <Garden>false</Garden>
+    <ChildrenAttractions>false</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+  <HostingUnit>
+    <HostingUnitKey>10000000</HostingUnitKey>
+    <OwnerId>001100114</OwnerId>
+    <HostingUnitName>Good :)</HostingUnitName>
+    <Description>Very beautiful tzimer, come!</Description>
+    <NumRooms>2</NumRooms>
+    <AdultsBeds>2</AdultsBeds>
+    <ChildrenBeds>1</ChildrenBeds>
+    <Cribs>1</Cribs>
+    <Area>TELAVIV</Area>
+    <Address>Tel Aviv Hahagana 12</Address>
+    <Type>TZIMER</Type>
+    <Pool>true</Pool>
+    <Garden>true</Garden>
+    <ChildrenAttractions>true</ChildrenAttractions>
+    <TempMatrix>12,31,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</TempMatrix>
+  </HostingUnit>
+</ArrayOfHostingUnit>

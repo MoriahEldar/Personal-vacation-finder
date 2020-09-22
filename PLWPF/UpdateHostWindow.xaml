@@ -1,0 +1,32 @@
+﻿<Window x:Class="PLWPF.UpdateHostWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="UpdateHostWindow" Height="570" Width="1200" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="First name" Style="{StaticResource GeneralLabel}" Width="147" Margin="35,20,0,0"/>
+        <Label x:Name="Label_Copy" Content="Last name" Style="{StaticResource GeneralLabel}" Width="147" Margin="35,78,0,0"/>
+        <Label x:Name="Label_Copy9" Content="ID" Style="{StaticResource GeneralLabel}" Margin="35,136,0,0"/>
+        <Label x:Name="Label_Copy1" Content="Phone number" Style="{StaticResource GeneralLabel}" Width="194" Margin="35,194,0,0"/>
+        <Label x:Name="Label_Copy2" Content="Collection clearance" Style="{StaticResource GeneralLabel}" Width="272" Margin="35,320,0,0"/>
+        <Label x:Name="Label_Copy3" Content="Password" Style="{StaticResource GeneralLabel}" Width="147" Margin="35,383,0,0"/>
+        <Label x:Name="Label_Copy5" Content="Mail Address" Style="{StaticResource GeneralLabel}" Width="196" Margin="35,257,0,0"/>
+        <Label x:Name="Label_Copy6" Content="Bank name" Style="{StaticResource GeneralLabel}" Width="196" Margin="636,17,0,0"/>
+        <Label x:Name="Label_Copy7" Content="Branch name" Style="{StaticResource GeneralLabel}" Width="196" Margin="636,80,0,0"/>
+        <Label x:Name="Label_Copy8" Content="Bank account number" Style="{StaticResource GeneralLabel}" Width="302" Margin="636,143,0,0"/>
+        <TextBox x:Name="textBox" Style="{StaticResource GeneralText}" Margin="234,34,0,0" Text ="{Binding FirstName, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+        <TextBox x:Name="textBox_Copy" Style="{StaticResource GeneralText}" Margin="234,97,0,0" Text ="{Binding LastName, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+        <TextBox x:Name="textBox_Copy4" IsEnabled="False" Style="{StaticResource GeneralText}" Margin="234,151,0,0" Text ="{Binding Id, Mode=TwoWay, NotifyOnValidationError=True, ValidatesOnDataErrors=True, ValidatesOnExceptions=True}"/>
+        <TextBox x:Name="textBox_Copy1" Style="{StaticResource GeneralText}" Margin="234,212,0,0" Text ="{Binding PhoneNumber, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+        <TextBox x:Name="textBox_Copy2" Style="{StaticResource GeneralText}" Margin="234,274,0,0" Text ="{Binding Mail, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+        <TextBox x:Name="bankAccountText" Style="{StaticResource GeneralText}" Margin="936,159,0,0" Text ="{Binding BankAccountNumber, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="234,399,0,0" VerticalAlignment="Top" Height="23" Width="156"/>
+        <CheckBox x:Name="checkBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="289,340,0,0" Height="19" Width="18" IsChecked="{Binding CollectionClearance}"/>
+        <ComboBox x:Name="bankNameCombo" Style="{StaticResource GeneralCombo}" Margin="936,34,0,0" SelectedItem="{Binding BankName, Mode=TwoWay}" ItemsSource="{Binding}" SelectionChanged="bankNameCombo_SelectionChanged"/>
+        <ComboBox x:Name="branchNameCombo" IsEnabled="false" Style="{StaticResource GeneralCombo}" Margin="936,97,0,0" SelectedItem="{Binding BranchAddress, Mode=TwoWay}" ItemsSource="{Binding}" SelectionChanged="branchNameCombo_SelectionChanged"/>
+        <Button x:Name="button" Content="Update" Style="{StaticResource GeneralButton}" Margin="744,243,0,0" Click="button_Click"/>
+    </Grid>
+</Window>

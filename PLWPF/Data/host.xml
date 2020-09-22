@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<ArrayOfHost xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Host>
+    <Id>101010106</Id>
+    <FirstName>Moria</FirstName>
+    <LastName>Balaklav</LastName>
+    <PhoneNumber>0506675751</PhoneNumber>
+    <Mail>mbalaklav@gmail.com</Mail>
+    <HostBankAccount>
+      <BankNumber>12</BankNumber>
+      <BankName>בנק הפועלים בע"מ</BankName>
+      <BranchNumber>788</BranchNumber>
+      <BranchAddress>אפטר 9 , תל אביב -יפו</BranchAddress>
+      <BankAccountNumber>1234</BankAccountNumber>
+    </HostBankAccount>
+    <CollectionClearance>true</CollectionClearance>
+    <Commission>0</Commission>
+    <Password>12345678</Password>
+  </Host>
+  <Host>
+    <Id>010101012</Id>
+    <FirstName>shahar</FirstName>
+    <LastName>schwarz</LastName>
+    <PhoneNumber>0502131968</PhoneNumber>
+    <Mail>shahar.141202@gmail.com</Mail>
+    <HostBankAccount>
+      <BankNumber>14</BankNumber>
+      <BankName>בנק אוצר החייל בע"מ</BankName>
+      <BranchNumber>343</BranchNumber>
+      <BranchAddress>אורי בר-און 2 , אריאל</BranchAddress>
+      <BankAccountNumber>432518</BankAccountNumber>
+    </HostBankAccount>
+    <CollectionClearance>true</CollectionClearance>
+    <Commission>50</Commission>
+    <Password>tyuiu</Password>
+  </Host>
+  <Host>
+    <Id>110011004</Id>
+    <FirstName>Revava</FirstName>
+    <LastName>Sagiv</LastName>
+    <PhoneNumber>0584873900</PhoneNumber>
+    <Mail>revava.sagiv@gmail.com</Mail>
+    <HostBankAccount>
+      <BankNumber>12</BankNumber>
+      <BankName>בנק הפועלים בע"מ</BankName>
+      <BranchNumber>788</BranchNumber>
+      <BranchAddress>אפטר 9 , תל אביב -יפו</BranchAddress>
+      <BankAccountNumber>312</BankAccountNumber>
+    </HostBankAccount>
+    <CollectionClearance>true</CollectionClearance>
+    <Commission>0</Commission>
+    <Password>hello</Password>
+  </Host>
+  <Host>
+    <Id>001100114</Id>
+    <FirstName>Moriah</FirstName>
+    <LastName>Eldar</LastName>
+    <PhoneNumber>0526051543</PhoneNumber>
+    <Mail>wertsite4u@gmail.com</Mail>
+    <HostBankAccount>
+      <BankNumber>52</BankNumber>
+      <BankName>בנק פועלי אגודת ישראל בע"מ</BankName>
+      <BranchNumber>986</BranchNumber>
+      <BranchAddress>רשב"י 15 רובע ז',, אשדוד</BranchAddress>
+      <BankAccountNumber>324</BankAccountNumber>
+    </HostBankAccount>
+    <CollectionClearance>true</CollectionClearance>
+    <Commission>60</Commission>
+    <Password>whatdoyouwannado</Password>
+  </Host>
+</ArrayOfHost>

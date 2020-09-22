@@ -1,0 +1,12 @@
+C:\Users\Yonina\Documents\אקדמיה\BE\PLWPF\obj\Debug\PLWPF.csprojAssemblyReference.cache
+C:\Users\Yonina\Documents\אקדמיה\BE\PLWPF\obj\Debug\AddGuestRequest.g.cs
+C:\Users\Yonina\Documents\אקדמיה\BE\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Yonina\Documents\אקדמיה\BE\PLWPF\obj\Debug\App.g.cs
+C:\Users\Yonina\Documents\אקדמיה\BE\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\Yonina\Documents\אקדמיה\BE\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\Yonina\Documents\Academy\BE\PLWPF\obj\Debug\PLWPF.csprojAssemblyReference.cache
+C:\Users\Yonina\Documents\Academy\BE\PLWPF\obj\Debug\AddGuestRequest.g.cs
+C:\Users\Yonina\Documents\Academy\BE\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Yonina\Documents\Academy\BE\PLWPF\obj\Debug\App.g.cs
+C:\Users\Yonina\Documents\Academy\BE\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\Yonina\Documents\Academy\BE\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref

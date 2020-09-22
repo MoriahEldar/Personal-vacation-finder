@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="PLWPF.ManagerRuler"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="325">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Width="325">
+            <Label x:Name="label" Content="Hello Manager" Style="{StaticResource GeneralLabel}" Width="216" Margin="68,4,0,0" Height="60"/>
+            <Image x:Name="image" Height="129" VerticalAlignment="Bottom" Margin="0,0,105,485" Source="Resources/user.png" HorizontalAlignment="Right" Width="120"/>
+            <Button x:Name="RequestsList" Style="{StaticResource InvisibleButton}" Width="250" Height="80" Margin="34,0,0,387" VerticalAlignment="Bottom" Click="RequestsList_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="72" VerticalAlignment="Bottom" Source="Resources/paper.png" HorizontalAlignment="Right" Width="73" RenderTransformOrigin="0.552,0.506"/>
+                    <Label Style="{StaticResource GeneralLabel}" Content="Requests" Margin="0, 15, 0, 0" Width="150"/>
+                </StackPanel>
+            </Button>
+            <Button x:Name="SignOut" Style="{StaticResource InvisibleButton}" Width="284" Height="110" VerticalAlignment="Bottom" Click="SignOut_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="101" VerticalAlignment="Bottom" Source="Resources/door.png" HorizontalAlignment="Right" Width="102" RenderTransformOrigin="0.552,0.506"/>
+                    <Label Style="{StaticResource GeneralLabel}" Content="Sign out" Margin="10, 23, 0, 0"/>
+                </StackPanel>
+            </Button>
+            <Button x:Name="HostsList" Style="{StaticResource InvisibleButton}" Width="250" Height="80" Margin="34,0,0,270" VerticalAlignment="Bottom" Click="HostsList_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="72" VerticalAlignment="Bottom" Source="Resources/paper.png" HorizontalAlignment="Right" Width="73" RenderTransformOrigin="0.552,0.506"/>
+                    <Label Style="{StaticResource GeneralLabel}" Content="Hosts" Margin="0, 15, 0, 0" Width="150"/>
+                </StackPanel>
+            </Button>
+            <Button x:Name="OrdersList" Style="{StaticResource InvisibleButton}" Width="250" Height="80" Margin="34,0,0,153" VerticalAlignment="Bottom" Click="OrdersList_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="72" VerticalAlignment="Bottom" Source="Resources/paper.png" HorizontalAlignment="Right" Width="73" RenderTransformOrigin="0.552,0.506"/>
+                    <Label Style="{StaticResource GeneralLabel}" Content="Orders" Margin="0, 15, 0, 0" Width="150"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+
+    </Grid>
+</UserControl>

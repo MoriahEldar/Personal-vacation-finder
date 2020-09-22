@@ -1,0 +1,5 @@
+C:\Users\Yonina\Documents\אקדמיה\BE\BE\bin\Debug\BE.dll
+C:\Users\Yonina\Documents\אקדמיה\BE\BE\bin\Debug\BE.pdb
+C:\Users\Yonina\Documents\אקדמיה\BE\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\Yonina\Documents\אקדמיה\BE\BE\obj\Debug\BE.dll
+C:\Users\Yonina\Documents\אקדמיה\BE\BE\obj\Debug\BE.pdb

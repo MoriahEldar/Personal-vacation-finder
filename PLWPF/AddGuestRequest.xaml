@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="PLWPF.AddGuestRequest"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="670" d:DesignWidth="970">
+    <Grid>
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Stretch"  Width="970">
+            <Label x:Name="label" Content="First name" Style="{StaticResource GeneralLabel}" Width="160" Margin="38,124,0,0"/>
+            <Label x:Name="label_Copy" Content="Last Name" Style="{StaticResource GeneralLabel}" Width="160" Margin="38,182,0,0"/>
+            <Label x:Name="label_Copy1" Content="Mail address" Style="{StaticResource GeneralLabel}" Width="160" Margin="38,250,0,0"/>
+            <Label x:Name="label_Copy2" Content="Entry date" Style="{StaticResource GeneralLabel}" Margin="38,308,0,0"/>
+            <Label x:Name="label_Copy3" Content="Wanted Area" Style="{StaticResource GeneralLabel}" Width="194" Margin="38,432,0,0"/>
+            <Label x:Name="label_Copy4" Content="Wanted Type" Style="{StaticResource GeneralLabel}" Width="194" Margin="38,498,0,0"/>
+            <Label x:Name="label_Copy5" Content="Adults" Style="{StaticResource GeneralLabel}" Width="194" Margin="510,124,0,0"/>
+            <Label x:Name="label_Copy6" Content="Children" Style="{StaticResource GeneralLabel}" Width="194" Margin="510,182,0,0"/>
+            <Label x:Name="label_Copy7" Content="Babies" Style="{StaticResource GeneralLabel}" Width="194" Margin="510,246,0,0"/>
+            <Label x:Name="label_Copy8" Content="Pool?" Style="{StaticResource GeneralLabel}" Width="160" Margin="510,304,0,0"/>
+            <Label x:Name="label_Copy9" Content="Garden?" Style="{StaticResource GeneralLabel}" Width="160" Margin="510,366,0,0"/>
+            <Label x:Name="label_Copy10" Content="Children attractions?" Style="{StaticResource GeneralLabel}" Width="272" Margin="510,430,0,0"/>
+            <Label x:Name="label_Copy11" Content="Release date" Style="{StaticResource GeneralLabel}" Width="160" Margin="38,370,0,0"/>
+            <TextBox x:Name="textBox" Style="{StaticResource GeneralText}" Margin="204,142,0,0" Text ="{Binding FirstName, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+            <TextBox x:Name="textBox_Copy" Style="{StaticResource GeneralText}" Margin="204,204,0,0" Text ="{Binding LastName, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+            <TextBox x:Name="textBox_Copy1" Style="{StaticResource GeneralText}" Margin="204,266,0,0" Width="254" Text ="{Binding Mail, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+            <DatePicker x:Name="entry" SelectedDateChanged="entry_SelectedDateChanged" Margin="212,316,0,320" FontFamily="Segoe Print" SelectedDate ="{Binding EntryDate, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Width="120"/>
+            <DatePicker x:Name="release" Margin="212,374,0,262" FontFamily="Segoe Print" SelectedDate ="{Binding ReleaseDate, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Width="120"/>
+            <ComboBox x:Name="areaCombo" Style="{StaticResource GeneralCombo}" Margin="212,448,0,0" SelectedItem="{Binding Area}" ItemsSource="{Binding}" IsEditable="True"/>
+            <ComboBox x:Name="typeCombo" Style="{StaticResource GeneralCombo}" Margin="212,514,0,0" SelectedItem="{Binding Type}" ItemsSource="{Binding}" IsEditable="True"/>
+            <TextBox x:Name="textBox_Copy2" Style="{StaticResource GeneralText}" Margin="784,140,0,0" Text ="{Binding Adults, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+            <TextBox x:Name="textBox_Copy3" Style="{StaticResource GeneralText}" Margin="784,200,0,0" Text ="{Binding Children, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+            <TextBox x:Name="textBox_Copy4" Style="{StaticResource GeneralText}" Margin="784,258,0,0" Text ="{Binding Babies, Mode=TwoWay, ValidatesOnExceptions=True, NotifyOnValidationError=True, ValidatesOnDataErrors=True}"/>
+            <ComboBox x:Name="poolCombo" Style="{StaticResource GeneralCombo}" Margin="784,322,0,0" SelectedItem="{Binding Pool}" ItemsSource="{Binding}"/>
+            <ComboBox x:Name="gardenCombo" Style="{StaticResource GeneralCombo}" Margin="784,386,0,0" SelectedItem="{Binding Garden}" ItemsSource="{Binding}"/>
+            <ComboBox x:Name="childrenCombo" Style="{StaticResource GeneralCombo}" Margin="784,446,0,0" SelectedItem="{Binding ChildrenAttractions}" ItemsSource="{Binding}"/>
+            <Button x:Name="button" Content="Add" Style="{StaticResource GeneralButton}" Margin="578,514,0,0" Click="button_Click" Height="56"/>
+            <Label x:Name="label_Copy12" Content="Pick your vacation!" Style="{StaticResource GeneralLabel}" Width="513" Margin="275,10,0,0" Height="84" FontSize="48"/>
+        </Grid>
+
+    </Grid>
+</UserControl>

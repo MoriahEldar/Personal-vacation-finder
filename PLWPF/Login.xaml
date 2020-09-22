@@ -1,0 +1,18 @@
+﻿<Window x:Class="PLWPF.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="Log in as host" Height="230" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="ID:" Style="{StaticResource GeneralLabel}" HorizontalAlignment="Left" Height="40" Margin="128,10,0,0" VerticalAlignment="Top" Width="48" FontSize="20"/>
+        <TextBox x:Name="idText" Style="{StaticResource GeneralText}" Margin="170,20,0,0" FontSize="14"/>
+        <PasswordBox x:Name="passwordText" HorizontalAlignment="Left" FontSize="16" Height="26" Margin="170,62,0,0" VerticalAlignment="Top" Width="156"/>
+        <Label x:Name="label_Copy" Content="Password:" Style="{StaticResource GeneralLabel}" HorizontalAlignment="Left" Height="40" Margin="54,50,0,0" VerticalAlignment="Top" Width="110" FontSize="20" RenderTransformOrigin="0.455,0.525"/>
+        <Button x:Name="Log" Content="Log in" Style="{StaticResource GeneralButton}" Margin="138,100,0,0" Width="112" Click="Login_Click" Height="33" FontSize="18"/>
+        <Button x:Name="SignUp" Content="Don't have an account? sign up" Foreground="Blue" Style="{StaticResource InvisibleButton}" Margin="98,146,0,0" Width="198" Height="26" Click="SignUp_Click"/>
+        <Button x:Name="ForgotPassword" Content="Forgot your password?" Foreground="Blue" FontSize="8" Style="{StaticResource InvisibleButton}" Margin="284,174,0,0" Width="101" Height="18" Click="ForgotPassword_Click"/>
+    </Grid>
+</Window>

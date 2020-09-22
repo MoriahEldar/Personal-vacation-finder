@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="PLWPF.OrderViewManager"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             Height="200" Width="960">
+    <Grid>
+        <TextBox x:Name="OrderKeyText" Style="{StaticResource InvisibleText}" TextAlignment="Center" Text="{Binding OrderKey}" Width="161" Margin="0,16,0,0"/>
+        <TextBox x:Name="GuestReqKeyText" Style="{StaticResource InvisibleText}" TextAlignment="Center" Margin="0,70,0,0" Text="{Binding GuestRequestKey}" Width="161"/>
+        <TextBox x:Name="FirstNameReqText" Style="{StaticResource ResourceKey=InvisibleText}" TextAlignment="Center" Margin="167,70,0,0" Text="{Binding FirstName}" Width="124"/>
+        <TextBox x:Name="LastNameReqText" Style="{StaticResource ResourceKey=InvisibleText}" TextAlignment="Center" Margin="296,70,0,0" Text="{Binding LastName}" Width="127"/>
+        <Label x:Name="label" Content="Order key" Style="{StaticResource GeneralLabel}" Margin="0,48,0,0" FontSize="12" Foreground="Gray" Width="76" Height="30"/>
+        <Label x:Name="label_Copy" Content="Guest request key" Style="{StaticResource ResourceKey=GeneralLabel}" Margin="0,100,0,0" FontSize="12" Foreground="Gray" Width="122" Height="30"/>
+        <Label x:Name="label_Copy1" Content="Dates:" Style="{StaticResource GeneralLabel}" Margin="165,10,0,0" />
+        <TextBox x:Name="ReleaseDateReqText" Style="{StaticResource InvisibleText}" Width="203" TextAlignment="Center" Text="{Binding ReleaseDate, StringFormat=dd-MM-yyyy}" Margin="489,16,0,0"/>
+        <Label Content="-" Style="{StaticResource GeneralLabel}" Width="41" Margin="457,10,0,0" Height="44"/>
+        <TextBox x:Name="EntryDateReqText" Style="{StaticResource InvisibleText}" Width="203" TextAlignment="Center" Text="{Binding EntryDate, StringFormat=dd-MM-yyyy}" Margin="254,16,0,0"/>
+        <Button x:Name="Delete" Style="{StaticResource InvisibleButton}" Width="63" Click="Delete_Click" Margin="892,126,0,0">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="46" VerticalAlignment="Bottom" Source="resources/delete.png" HorizontalAlignment="Right" Width="46" RenderTransformOrigin="0.552,0.506"/>
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <Label x:Name="label_Copy2" Content="Status" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="710,13,0,0"/>
+        <TextBox x:Name="textBox_Copy3" Style="{StaticResource ResourceKey=InvisibleText}" Margin="758,18,0,0" Width="135" Height="22" FontSize="12" Text="{Binding Status}"/>
+        <Label x:Name="label_Copy3" Content="Create date" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="710,40,0,0"/>
+        <TextBox x:Name="textBox_Copy4" Style="{StaticResource ResourceKey=InvisibleText}" Margin="792,45,0,0" Width="148" Height="22" FontSize="12" Text="{Binding CreateDate, StringFormat=dd-MM-yyyy}"/>
+        <Label x:Name="label_Copy4" Content="Order date" Style="{StaticResource ResourceKey=GeneralLabel}" FontSize="12" Height="30" Margin="710,66,0,0"/>
+        <TextBox x:Name="textOrderDate" Style="{StaticResource ResourceKey=InvisibleText}" Margin="788,70,0,0" Width="148" Height="22" FontSize="12"/>
+        <TextBox x:Name="HostingUnitKeyText" Style="{StaticResource InvisibleText}" TextAlignment="Center" Margin="0,123,0,0" Text="{Binding HostingUnitKey}" Width="161"/>
+        <TextBox x:Name="HostingUnitNameText" Style="{StaticResource ResourceKey=InvisibleText}" TextAlignment="Center" Margin="167,123,0,0" Text="{Binding HostingUnitName}" Width="222"/>
+        <Label x:Name="label_Copy5" Content="Hosting unit key" Style="{StaticResource ResourceKey=GeneralLabel}" Margin="0,153,0,0" FontSize="12" Foreground="Gray" Width="122" Height="30"/>
+        <TextBox x:Name="HostKeyText" Style="{StaticResource InvisibleText}" TextAlignment="Center" Margin="416,123,0,0" Text="{Binding Id}" Width="214"/>
+        <TextBox x:Name="FirstNameHostText" Style="{StaticResource ResourceKey=InvisibleText}" TextAlignment="Center" Margin="630,123,0,0" Text="{Binding FirstName}" Width="124"/>
+        <TextBox x:Name="LastNameHostText" Style="{StaticResource ResourceKey=InvisibleText}" TextAlignment="Center" Margin="758,123,0,0" Text="{Binding LastName}" Width="128"/>
+        <Label x:Name="label_Copy6" Content="Host ID" Style="{StaticResource ResourceKey=GeneralLabel}" Margin="416,153,0,0" FontSize="12" Foreground="Gray" Width="122" Height="30"/>
+        <Label x:Name="label_Copy7" Content="Hosting unit name" Style="{StaticResource ResourceKey=GeneralLabel}" Margin="167,153,0,0" FontSize="12" Foreground="Gray" Width="122" Height="30"/>
+        <Label x:Name="label_Copy8" Content="Guest request name" Style="{StaticResource ResourceKey=GeneralLabel}" Margin="167,100,0,0" FontSize="12" Foreground="Gray" Width="129" Height="30"/>
+        <Label x:Name="label_Copy9" Content="Host name" Style="{StaticResource ResourceKey=GeneralLabel}" Margin="636,156,0,0" FontSize="12" Foreground="Gray" Width="122" Height="30"/>
+    </Grid>
+</UserControl>

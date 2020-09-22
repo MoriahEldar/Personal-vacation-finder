@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="PLWPF.OrderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             Height="160" Width="970" BorderBrush="Black">
+    <Grid>
+        <TextBox x:Name="OrderKeyText" Style="{StaticResource InvisibleText}" TextAlignment="Center" Text="{Binding OrderKey}" Width="161"/>
+        <TextBox x:Name="textBox_Copy2" Style="{StaticResource InvisibleText}" TextAlignment="Center" Margin="0,54,0,0" Text="{Binding GuestRequestKey}" Width="161"/>
+        <TextBox x:Name="textBox_Copy" Style="{StaticResource ResourceKey=InvisibleText}" TextAlignment="Center" Margin="0,110,0,0" Text="{Binding FirstName}" Width="161"/>
+        <TextBox x:Name="textBox_Copy1" Style="{StaticResource ResourceKey=InvisibleText}" TextAlignment="Center" Margin="166,110,0,0" Text="{Binding LastName}" Width="161"/>
+        <Button x:Name="Order" Style="{StaticResource InvisibleButton}" Width="281" Height="70" Margin="480,0,0,6" VerticalAlignment="Bottom" Click="Order_Click">
+            <StackPanel Orientation="Horizontal">
+                <Image x:Name="Icon" Height="50" VerticalAlignment="Bottom" Source="{Binding ImageStatus}" Margin="0, 0, 0, 0" HorizontalAlignment="Right" Width="50" RenderTransformOrigin="0.007,0.306"/>
+                <Label x:Name="Status" Style="{StaticResource GeneralLabel}" Content="Send mail" Margin="0, 0, 0, 0" RenderTransformOrigin="0.507,0.153" Width="192"/>
+            </StackPanel>
+        </Button>
+        <Label x:Name="label" Content="Order key" Style="{StaticResource GeneralLabel}" Margin="0,32,0,0" FontSize="12" Foreground="Gray" Width="76" Height="30"/>
+        <Label x:Name="label_Copy" Content="Guest request key" Style="{StaticResource ResourceKey=GeneralLabel}" Margin="0,84,0,0" FontSize="12" Foreground="Gray" Width="122" Height="30"/>
+        <Label x:Name="label_Copy1" Content="Dates:" Style="{StaticResource GeneralLabel}" Margin="428,12,0,0" />
+        <TextBox Style="{StaticResource InvisibleText}" Width="203" TextAlignment="Center" Text="{Binding ReleaseDate, StringFormat=dd-MM-yyyy}" Margin="752,18,0,0"/>
+        <Label Content="-" Style="{StaticResource GeneralLabel}" Width="41" Margin="720,12,0,0" Height="44"/>
+        <TextBox Style="{StaticResource InvisibleText}" Width="203" TextAlignment="Center" Text="{Binding EntryDate, StringFormat=dd-MM-yyyy}" Margin="517,18,0,0"/>
+        <Button x:Name="Delete" Style="{StaticResource InvisibleButton}" Width="63" Click="Delete_Click" Margin="907,90,0,0">
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Image Height="46" VerticalAlignment="Bottom" Source="resources/delete.png" HorizontalAlignment="Right" Width="46" RenderTransformOrigin="0.552,0.506"/>
+                </StackPanel>
+            </Button.Content>
+        </Button>
+    </Grid>
+</UserControl>
