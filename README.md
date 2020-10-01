@@ -6,6 +6,6 @@ This project is a personal vacation finder system. The system has 3 parts: <br>
 - Manager section: The system manager can find all the information in the system (hosts, requests and orders) and make some actions on it.
 
 The manager section password is: whatdoyouwannado <br>
-The hosts system password: All the information about the are in the xml in data binary (in PLWPF). But because we didn't want to put real info, the only way that you can also send mail is the one with the id: 001100114 and the password: whatdoyouwannado
+The hosts system password: All the information about the hosts are in the xml in data binary (in PLWPF). But because we didn't want to put real info, the only way that you can also send mail is the one with the id: 001100114 and the password: whatdoyouwannado
 
 Co-Authored-By: revava revava@users.noreply.github.com
